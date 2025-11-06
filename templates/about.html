@@ -1,0 +1,122 @@
+{% extends 'base.html' %}
+{% block title %}About{% endblock title %}
+{% block body %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> About</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About</title>
+
+    <link rel="shortcut icon" href="/static/logo.jpg" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background-color: black;
+            color: white;
+        }
+
+        html {
+            box-sizing: border-box;
+        }
+
+        .card-text {
+            color: black; /* Set the font color of card-text to black */
+        }
+
+        /* ... (existing styles remain unchanged) ... */
+    </style>
+
+    <!-- Bootstrap and other styles remain unchanged -->
+</head>
+
+<body>
+
+<main role="main">
+    <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">About Us</h1>
+          <p class="lead text-muted">We are from <b>KL University</b></p>
+          <p> Below Are The People Who
+            Worked In Our Project</p>
+            <p>Meet the innovative trio behind our cutting-edge event management app, EventPro. Jennifer, a seasoned project manager, brought her organizational prowess to the table, ensuring seamless coordination and execution of events. John, a tech wizard, infused the app with his programming genius, crafting a user-friendly interface and robust features. Lastly, Emily, a creative mind, added a touch of flair with her design expertise, making the app visually appealing. Together, they birthed EventPro, a comprehensive solution offering features such as dynamic event creation, guest management, and real-time updates. With their diverse skills, the trio has revolutionized event planning, providing users with a streamlined and enjoyable experience.</p>
+
+        </div>
+      </section>
+
+
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="/static/fer.jpg" height="375px">
+                <div class="card-body">
+                  <p class="card-text">Name- A Jayanth<br>Email- 2200032918@kluniversity.in<br>Contribution- FrontEnd Designer</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="/static/cha.jpg" height="375px">
+                <div class="card-body">
+                  <p class="card-text">Name- G Preethi Vardhan<br>Email- 2200032810@kluniversity.in<br>Contribution- MiddleWare Designer</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" src="/static/su.jpg" height="375px" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Name- N Shyam<br>Email- 2100032476@kluniversity.in<br>Contribution- Front End Implementation</p>
+                  <div class="d-flex justify-content-between align-items-center">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</main>
+
+<footer class="text-muted">
+    <div class="container">
+        <div class="mx-auto" style="width: 200px">
+            <center>
+                <p class="float-right" my-4="">
+                    <a href="#" class="btn btn-outline-primary">Back to top</a>
+                </p>
+                <p class="float-right">
+                    <a href="/" class="btn btn-outline-danger">Go To Home</a>
+                </p>
+            </center>
+        </div>
+    </div>
+</footer>
+
+<div id="footer">
+    <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-dark" href="https://www.kluniversity.in/">KL University</a>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>
+{% endblock body %}
